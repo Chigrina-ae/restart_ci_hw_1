@@ -9,7 +9,21 @@ Console.WriteLine("Input two numbers");
 int NumberOne = Convert.ToInt32(Console.ReadLine());
 int NumberTwo = Convert.ToInt32(Console.ReadLine());
 
+if(NumberOne > NumberTwo)
+    {
+        Console.WriteLine($"Max from this numbers = {NumberOne}");
+    }
 
+
+if(NumberOne < NumberTwo)
+    {
+        Console.WriteLine($"Max from this numbers = {NumberTwo}");
+    }
+
+if(NumberOne == NumberTwo)
+    {
+        Console.WriteLine("Numbers are equal");
+    }
 
 // Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 // 2, 3, 7 -> 7
