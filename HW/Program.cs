@@ -5,6 +5,7 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
+/*
 Console.WriteLine("Input first number");
 int NumberOne = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Input second number");
@@ -26,22 +27,38 @@ else
         Console.WriteLine("Numbers are equal");
     }
 
+*/
+
 // Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
 // 2, 3, 7 -> 7
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-/*
-Console.WriteLine("Input three numbers");
-int NumberOne = Convert.ToInt32(Console.ReadLine());
-int NumberTwo = Convert.ToInt32(Console.ReadLine());
-int NumberThree = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine ("Input three numbers");
+ 
+ int [] Numbers = new int [3];
+ 
+ //Заполняем массив
 
-int Max = NumberOne;
+Numbers [0] = Convert.ToInt32 (Console.ReadLine());
+Numbers [1] = Convert.ToInt32 (Console.ReadLine());
+Numbers [2] = Convert.ToInt32 (Console.ReadLine());
 
+int i = 0;
+int Max = Numbers[0];
 
+while (i<3) 
+  {if (Max<Numbers[i])
+         {Max =Numbers[i];
+         
+         }
+     
+         
+  i=i+1;   
+  }
 
-*/
+Console.WriteLine ($"Max from this numbers = {Max}");
+
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 // 4 -> да
