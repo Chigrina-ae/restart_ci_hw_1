@@ -5,8 +5,9 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-Console.WriteLine("Input two numbers");
+Console.WriteLine("Input first number");
 int NumberOne = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input second number");
 int NumberTwo = Convert.ToInt32(Console.ReadLine());
 
 if(NumberOne > NumberTwo)
@@ -15,12 +16,12 @@ if(NumberOne > NumberTwo)
     }
 
 
-if(NumberOne < NumberTwo)
+else if (NumberOne < NumberTwo)
     {
         Console.WriteLine($"Max from this numbers = {NumberTwo}");
     }
 
-if(NumberOne == NumberTwo)
+else 
     {
         Console.WriteLine("Numbers are equal");
     }
@@ -35,6 +36,11 @@ Console.WriteLine("Input three numbers");
 int NumberOne = Convert.ToInt32(Console.ReadLine());
 int NumberTwo = Convert.ToInt32(Console.ReadLine());
 int NumberThree = Convert.ToInt32(Console.ReadLine());
+
+int Max = NumberOne;
+
+
+
 */
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
