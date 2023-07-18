@@ -34,6 +34,7 @@ else
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
+/*
 Console.WriteLine ("Input three numbers");
  
  int [] Numbers = new int [3];
@@ -58,17 +59,26 @@ while (i<3)
   }
 
 Console.WriteLine ($"Max from this numbers = {Max}");
-
+*/
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
 
-/*
+
 Console.WriteLine("Input one number");
-int NumberOne = Convert.ToInt32(Console.ReadLine());
-*/
+double NumberOne = Convert.ToDouble(Console.ReadLine());
+
+if((NumberOne % 2) == 0)
+    {
+        Console.WriteLine("Number is even");
+    }
+else
+    {
+        Console.WriteLine("Number is odd");
+    }
+
 
 
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
