@@ -81,6 +81,8 @@ else
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
 
+// певый вариант решения
+/*
 Console.WriteLine("Input one number");
 double NumberOne = Convert.ToDouble(Console.ReadLine());
 
@@ -91,6 +93,19 @@ while(NumberOne > 0)
                 Console.Write(NumberOne + " ");
             }
         
-        NumberOne = NumberOne - 1;
-            
+        NumberOne = NumberOne - 1;       
+    }
+*/
+
+// второй вариант решения
+
+Console.WriteLine("Input one number");
+int NumberOne = Convert.ToInt32(Console.ReadLine());
+
+for(int i = 0; i <= NumberOne; i++)
+    {
+        if((i % 2) == 0)
+            {
+                Console.Write(i + " ");
+            }   
     }
