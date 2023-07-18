@@ -64,7 +64,7 @@ Console.WriteLine ($"Max from this numbers = {Max}");
 
 /*
 Console.WriteLine("Input one number");
-double NumberOne = Convert.ToDouble(Console.ReadLine());
+int NumberOne = Convert.ToInt32(Console.ReadLine());
 
 if((NumberOne % 2) == 0)
     {
@@ -76,7 +76,6 @@ else
     }
 */
 
-
 // Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
@@ -84,7 +83,7 @@ else
 // певый вариант решения
 /*
 Console.WriteLine("Input one number");
-double NumberOne = Convert.ToDouble(Console.ReadLine());
+int NumberOne = Convert.ToInt32(Console.ReadLine());
 
 while(NumberOne > 0)
     {
@@ -98,7 +97,7 @@ while(NumberOne > 0)
 */
 
 // второй вариант решения
-
+/*
 Console.WriteLine("Input one number");
 int NumberOne = Convert.ToInt32(Console.ReadLine());
 
@@ -109,3 +108,4 @@ for(int i = 0; i <= NumberOne; i++)
                 Console.Write(i + " ");
             }   
     }
+    */
