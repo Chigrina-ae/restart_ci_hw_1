@@ -50,31 +50,36 @@ Console.WriteLine($"The second number  from {Number} is {Math.Abs(SecondNum)}");
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
-/*
-int ShowLast(int Num)
+
+int ShowThird(int Num)
     {
-        int Result = Num % 10;
-        return Result;    
+        int i = 0;
+        int Result = 0;
+        while (i == 0)
+            {
+                if (Num > 99)
+                    {
+                        Result = Num % 10;
+                        Num = Num / 10;
+                    }
+                else i = 1;
+            }
+        return Result;  
     }
 
-Console.WriteLine("Input number > two-digit number");
+Console.WriteLine("Input number");
 int Number = Convert.ToInt32(Console.ReadLine());
 
-while (Math.Abs(Number) < 100)
-    {
-        Console.WriteLine("Error. Input number > two-digit number");
-        Number = Convert.ToInt32(Console.ReadLine());
-    }
+if (Math.Abs(Number) > 99) Console.WriteLine($"The third number from {Number} is {ShowThird(Math.Abs(Number))}");
+else Console.WriteLine($"The third number from {Number} is absent");
 
-int NumLast = ShowLast(Number);
-Console.WriteLine($"The last number  from {Number} is {Math.Abs(NumLast)}");
-*/
 
 // Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 // 6 -> да
 // 7 -> да
 // 1 -> нет
 
+/*
 bool Week (int Num)
     {
         if (Num >= 6) return true;
@@ -93,4 +98,4 @@ while (Number > 7 | Number < 1)
 
 if (Number > 5) Console.WriteLine($"Is day {Number} weekend? - {Week(Number)}");
 else Console.WriteLine($"Is day {Number} weekend? - {Week(Number)}");
-
+*/
