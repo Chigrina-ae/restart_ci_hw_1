@@ -91,6 +91,6 @@ while (Number > 7 | Number < 1)
         Number = Convert.ToInt32(Console.ReadLine());
     }
 
-if (Number > 5) Console.WriteLine($"Is day {Number} weekend? - Yes");
-else Console.WriteLine($"Is day {Number} weekend? - No");
+if (Number > 5) Console.WriteLine($"Is day {Number} weekend? - {Week(Number)}");
+else Console.WriteLine($"Is day {Number} weekend? - {Week(Number)}");
 
