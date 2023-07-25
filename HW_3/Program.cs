@@ -6,29 +6,29 @@
 // 12821 -> да
 // 23432 -> да
 
-/*
-int Polin (string mess)
+
+int Palindrome (string Mess)
     {
-        Console.Write(mess);
-        string chis = Console.ReadLine();
-        int result = Convert.ToInt32(chis);
-        return result;
+        Console.Write(Mess);
+        string Num = Console.ReadLine();
+        int Result = Convert.ToInt32(Num);
+        return Result;
     }
-int chislo = Polin("Введите 5значное число: ");
-if(chislo < 10000 || chislo >= 100000)
+int Number = Palindrome("Input a five-digit number: ");
+if(Math.Abs(Number) < 10000 || Math.Abs(Number) >= 100000)
     {
-        Console.WriteLine("Это не 5значное число, введите 5значное число");
+        Console.WriteLine("It isn't a five-digit number, input a five-digit number ");
         return;
     }
-if(chislo % 10 == chislo / 10000 || chislo / 10 % 10 == chislo / 1000 % 10)
+if(Number % 10 == Number / 10000 || Number / 10 % 10 == Number / 1000 % 10)
     {
-        Console.WriteLine("Это число палиндром.");
+        Console.WriteLine("It is palindrome");
     }
 else
     {
-        Console.WriteLine("Это число не палиндром.");
+        Console.WriteLine("It isn't palindrome");
     }
-*/
+
 
 
 // Задача 21
