@@ -6,7 +6,7 @@
 // 12821 -> да
 // 23432 -> да
 
-
+/*
 int InputNum (string Mess)
     {
         Console.Write(Mess);
@@ -42,39 +42,36 @@ string CheckPalindrome (int Num)
 int Number = InputNum("Input a five-digit number: ");
 int NumberFive = CheckFive(Number);
 Console.WriteLine(CheckPalindrome(NumberFive));
-
+*/
 
 // Задача 21
 // Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
 // A (3,6,8); B (2,1,-7), -> 15.84
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
-/* 
-int Coordinata(string cordin, string point)
+
+int Coordinates(string coord, string point)
     {
-        Console.Write("Введите координату " + cordin + " точки " + point + ": ");
+        Console.Write($"Input Coordinate {coord} for point {point} : ");
         return Convert.ToInt16(Console.ReadLine());
     }
-int x1 = Coordinata("x", "A");
-int y1 = Coordinata("y", "A");
-int z1 = Coordinata("z", "A");
-int x2 = Coordinata("x", "B");
-int y2 = Coordinata("y", "B");
-int z2 = Coordinata("z", "B");
 
-double Solut(double x1, double x2, 
-                double y1, double y2, 
-                double z1, double z2)
+double Solut(double x1, double x2, double y1, double y2, double z1, double z2)
     {
-        return Math.Sqrt(Math.Pow((x2-x1), 2) + 
-                        Math.Pow((y2-y1), 2) + 
-                        Math.Pow((z2-z1), 2));
+        return Math.Sqrt(Math.Pow((x2-x1), 2) + Math.Pow((y2-y1), 2) + Math.Pow((z2-z1), 2));
     }
+
+int x1 = Coordinates("x", "A");
+int y1 = Coordinates("y", "A");
+int z1 = Coordinates("z", "A");
+int x2 = Coordinates("x", "B");
+int y2 = Coordinates("y", "B");
+int z2 = Coordinates("z", "B");
 
 double Length =  Math.Round(Solut(x1, x2, y1, y2, z1, z2), 2 );
 
-Console.WriteLine("Длина отрезка " + Length);
-*/
+Console.WriteLine($"Length of the segment = {Length});
+
 
 // Задача 23
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
