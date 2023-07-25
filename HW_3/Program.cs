@@ -81,22 +81,19 @@ Console.WriteLine($"Length of the segment = {Length}");
 // 3 - 27
 // 4 - 64
 
-/* 
-int Polin (string mess)
+ 
+int InputNum (string Mess)
     {
-        Console.Write(mess);
-        string chis = Console.ReadLine();
-        int result = Convert.ToInt32(chis);
-        return result;
+        Console.Write(Mess);
+        int Result = Convert.ToInt32(Console.ReadLine());
+        return Result;
     }
 
-int chislo = Polin("Введите число ");
-int chis = 1;
-int kvadrat = 0;
-while(chis <= chislo)
+int Number = InputNum("Input number : ");
+int Square = 0;
+for (int i = 1; i <= Number; i++)
     {
-        kvadrat = chis * chis;
-        Console.WriteLine(chis + "-" + kvadrat);
-        chis++;
+        Square = i * i;
+        Console.WriteLine($"{i} - {Square}");
     }
-*/
+
