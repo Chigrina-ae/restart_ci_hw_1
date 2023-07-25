@@ -39,7 +39,7 @@ string CheckPalindrome (int Num)
         return Result;
     }
 
-int Number = Math.Abs(InputNum("Input a five-digit number: "));
+int Number = InputNum("Input a five-digit number: ");
 int NumberFive = CheckFive(Number);
 Console.WriteLine(CheckPalindrome(NumberFive));
 
