@@ -3,6 +3,7 @@
 // 3, 5 -> 243 (3⁵)
 // 2, 4 -> 16
 
+/*
  int Exponent(int a, int b)
     {
         int step = a;
@@ -16,33 +17,32 @@ int Base = Convert.ToInt32(Console.ReadLine());
 Console.Write("Input a exponent number "+" ");
 int Exp = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(Exponent(Base, Exp));
-
-
+*/
 
 // Задача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
 // 452 -> 11
 // 82 -> 10
 // 9012 -> 12
 
-
-/* int SumDigits(int n)
-{
-    int sum = 0; 
-    int count = 0;
-    while (n>0)
+/*
+int SumDigits(int Num)
     {
-        int unit = n % 10;
-        sum = sum + unit;
-        n = n / 10 ;
-        count++;
+        int Sum = 0; 
+        int Count = 0;
+        while (Num>0)
+            {
+                int Unit = Num % 10;
+                Sum = Sum + Unit;
+                Num = Num / 10 ;
+                Count++;
+            }
+        return Sum;
     }
-    return sum;
-}
-Console.Write("Input a number"+" ");
-int number = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(SumDigits(number));
-*/
 
+Console.Write("Input a number"+" ");
+int Number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(SumDigits(Number));
+*/
 
 // Задача 29: Напишите программу, которая задаёт массив из m элементов и выводит их на экран. Разработать метод CreateArray(int size), генерирующий массив на основе данных, вводимых пользователем.
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
