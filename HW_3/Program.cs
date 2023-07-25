@@ -7,28 +7,41 @@
 // 23432 -> да
 
 
-int Palindrome (string Mess)
+int InputNum (string Mess)
     {
         Console.Write(Mess);
-        string Num = Console.ReadLine();
-        int Result = Convert.ToInt32(Num);
+        int Result = Convert.ToInt32(Console.ReadLine());
         return Result;
     }
-int Number = Palindrome("Input a five-digit number: ");
-if(Math.Abs(Number) < 10000 || Math.Abs(Number) >= 100000)
+
+int CheckFive (int Five)
     {
-        Console.WriteLine("It isn't a five-digit number, input a five-digit number ");
-        return;
-    }
-if(Number % 10 == Number / 10000 || Number / 10 % 10 == Number / 1000 % 10)
-    {
-        Console.WriteLine("It is palindrome");
-    }
-else
-    {
-        Console.WriteLine("It isn't palindrome");
+        Five = Math.Abs(Five);
+        while(Five < 10000 || Five >= 100000)
+            {
+                Console.WriteLine("It isn't a five-digit number");
+                Five = Math.Abs(InputNum("Input a five-digit number: "));
+            }
+        return Five;
     }
 
+string CheckPalindrome (int Num)
+    {
+        string Result = " ";
+        if(Num % 10 == Num / 10000 || Num / 10 % 10 == Num / 1000 % 10)
+            {
+               Result = "It is palindrome";
+            }
+        else
+            {
+               Result = "It isn't palindrome";
+            }
+        return Result;
+    }
+
+int Number = Math.Abs(InputNum("Input a five-digit number: "));
+int NumberFive = CheckFive(Number);
+Console.WriteLine(CheckPalindrome(NumberFive));
 
 
 // Задача 21
