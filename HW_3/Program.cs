@@ -49,7 +49,7 @@ Console.WriteLine(CheckPalindrome(NumberFive));
 // A (3,6,8); B (2,1,-7), -> 15.84
 // A (7,-5, 0); B (1,-1,9) -> 11.53
 
-
+/*
 int Coordinates(string coord, string point)
     {
         Console.Write($"Input Coordinate {coord} for point {point} : ");
@@ -71,7 +71,7 @@ int z2 = Coordinates("z", "B");
 double Length =  Math.Round(Solut(x1, x2, y1, y2, z1, z2), 2 );
 
 Console.WriteLine($"Length of the segment = {Length}");
-
+*/
 
 // Задача 23
 // Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
