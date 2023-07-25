@@ -70,7 +70,7 @@ int z2 = Coordinates("z", "B");
 
 double Length =  Math.Round(Solut(x1, x2, y1, y2, z1, z2), 2 );
 
-Console.WriteLine($"Length of the segment = {Length});
+Console.WriteLine($"Length of the segment = {Length}");
 
 
 // Задача 23
