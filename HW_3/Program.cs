@@ -93,7 +93,7 @@ int Number = InputNum("Input number : ");
 int Square = 0;
 for (int i = 1; i <= Number; i++)
     {
-        Square = i * i;
+        Square = i * i * i;
         Console.WriteLine($"{i} - {Square}");
     }
 

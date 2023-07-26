@@ -48,7 +48,7 @@ Console.WriteLine(SumDigits(Number));
 // 1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]
 // 6, 1, 33 -> [6, 1, 33]
 
-
+/*
 int InputNum (string mess) 
     {
         Console.WriteLine(mess);
@@ -76,3 +76,4 @@ int length = InputNum ("Input number of elements in the array");
 int[] myArray  = CreateArray(length);
 ShowArray(myArray);
 
+*/
