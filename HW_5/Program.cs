@@ -49,7 +49,7 @@ Console.WriteLine($"There are {evenCount} even numbers in array");
 // [3, 7, 23, 12] -> 19
 // [-4, -6, 89, 6] -> 0
 
-
+/*
 int[] CreateRandomArray(int size, int minVal, int maxVal)
 {
     int[] array = new int[size];
@@ -99,55 +99,53 @@ else
     Console.WriteLine();
     Console.WriteLine("We need more numbers, my dude");
 }
-
+*/
 
 // Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 // [3.22, 4.2, 1.15, 77.15, 65.2] => 77.15 - 1.15 = 76
 
-/*
-double[] Array()
-{
-    Console.Write("Input length: ");
-    int length = Convert.ToInt32(Console.ReadLine());
-    double[] result = new double[length]; //setting up length first, we will need it later
-    for (int i = 0; i < length; i++) //setting up cycle
-    {
-        Console.Write("Input an item: "); //requesting numbers
-        double number = Convert.ToDouble(Console.ReadLine());
-        result[i] = number; //we increase i from zero, each number gets its spot
-    }
 
-    return result; //getting massive as result
-}
+double[] Array()
+    {
+        Console.Write("Input length: ");
+        int length = Convert.ToInt32(Console.ReadLine());
+        double[] result = new double[length]; 
+        for (int i = 0; i < length; i++) 
+            {
+                Console.Write("Input an item: "); 
+                double number = Convert.ToDouble(Console.ReadLine());
+                result[i] = number; 
+            }
+        return result; 
+    }       
 
 void ShowArr(double[] array)
-{
-    Console.Write("Here is your array, mate: [  ");
-    for (int i = 0; i < array.Length; i++)
     {
-        Console.Write(array[i] + "  ");
+        Console.Write("Here is your array, mate: [  ");
+        for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write(array[i] + "  ");
+            }
+        Console.Write(" ]"); 
     }
-    Console.Write(" ]"); //this will make an array look like an array
-}
 
 double DiffMaxMin(double[] array)
-{
-    double maxVal = array[0];
-    double minVal = array[0];
-
-    for (int i = 0; i < array.Length; i++)
     {
-        if (maxVal <= array[i]) maxVal = array[i];
-        else if (minVal >= array[i]) minVal = array[i];
+        double maxVal = array[0];
+        double minVal = array[0];
+
+        for (int i = 0; i < array.Length; i++)
+        {
+            if (maxVal <= array[i]) maxVal = array[i];
+            else if (minVal >= array[i]) minVal = array[i];
+        }
+        double result = (maxVal - minVal);
+        result = Math.Round(result, 2); 
+        return result;
     }
-    double result = (maxVal - minVal);
-    result = Math.Round(result, 2); //in one occasion somehow got periodic number (16,7 - 1,8), went to 14,8999999999. It is correct, but decided to make it look bettr, got to look up for method though
-    return result;
-}
 
 double[] array = Array();
 ShowArr(array);
 double diffMaxMin = DiffMaxMin(array);
 Console.WriteLine();
 Console.WriteLine($"Difference between maximal and minimal number in your array is {diffMaxMin} my dude");
-*/
