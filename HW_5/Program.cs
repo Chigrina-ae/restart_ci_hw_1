@@ -93,12 +93,12 @@ if (array.Length > 1)
     {
         int oddSum = OddSum(array);
         Console.WriteLine(); 
-        Console.WriteLine($"Sum of odds in array is {oddSum}, my dude");
+        Console.WriteLine($"Sum of odds in array is {oddSum}");
     }
 else
     {
         Console.WriteLine();
-        Console.WriteLine("We need more numbers, my dude");
+        Console.WriteLine("We need more numbers");
     }
 */
 
@@ -149,5 +149,5 @@ double[] array = Array();
 ShowArr(array);
 double diffMaxMin = DiffMaxMin(array);
 Console.WriteLine();
-Console.WriteLine($"Difference between maximal and minimal number in your array is {diffMaxMin} my dude");
+Console.WriteLine($"Difference between maximal and minimal number in your array is {diffMaxMin} ");
 */

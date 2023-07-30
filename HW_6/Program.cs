@@ -5,27 +5,23 @@
 // 0, 7, 8, -2, -2 -> 2
 // 1, -7, 567, 89, 223-> 4
 
-/*
-0, 7, 8, -2, -2 -> 2
-1, -7, 567, 89, 223-> 4
-*/
-/*
-void Positives() //как говорили, не обязательно всё хранить в памяти и возвращать
-{
-int count = 0;
-Console.WriteLine("Input number of numbers, my number-loving friend:");
-int n = Convert.ToInt32(Console.ReadLine());
-    for (int i = 1; i <= n; i++)
+
+void Positives() 
     {
-        Console.WriteLine("Input number, my number-loving friend:");
-        int a = Convert.ToInt32(Console.ReadLine());
-        if(a > 0) count++;
+        int count = 0;
+        Console.WriteLine("Input number of numbers:");
+        int n = Convert.ToInt32(Console.ReadLine());
+            for (int i = 1; i <= n; i++)
+            {
+                Console.WriteLine("Input number:");
+                int a = Convert.ToInt32(Console.ReadLine());
+                if(a > 0) count++;
+            }
+        Console.WriteLine($"Your number of positive numbers in amount of number is {count}");
     }
-Console.WriteLine($"Your number of positive numbers in amount of number is {count}");
-}
 
 Positives();
-*/
+
 
 // Задача 43: Напишите программу, которая найдёт точку пересечения двух прямых, заданных уравнениями y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.
 

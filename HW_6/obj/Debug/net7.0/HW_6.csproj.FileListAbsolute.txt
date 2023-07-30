@@ -1,0 +1,15 @@
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\bin\Debug\net7.0\HW_6.exe
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\bin\Debug\net7.0\HW_6.deps.json
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\bin\Debug\net7.0\HW_6.runtimeconfig.json
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\bin\Debug\net7.0\HW_6.dll
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\bin\Debug\net7.0\HW_6.pdb
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\obj\Debug\net7.0\HW_6.csproj.AssemblyReference.cache
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\obj\Debug\net7.0\HW_6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\obj\Debug\net7.0\HW_6.AssemblyInfoInputs.cache
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\obj\Debug\net7.0\HW_6.AssemblyInfo.cs
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\obj\Debug\net7.0\HW_6.csproj.CoreCompileInputs.cache
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\obj\Debug\net7.0\HW_6.dll
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\obj\Debug\net7.0\refint\HW_6.dll
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\obj\Debug\net7.0\HW_6.pdb
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\obj\Debug\net7.0\HW_6.genruntimeconfig.cache
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\restart_ci_hw_1\HW_6\obj\Debug\net7.0\ref\HW_6.dll
