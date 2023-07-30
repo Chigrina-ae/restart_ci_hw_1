@@ -6,34 +6,34 @@
 
 /*
 int [] CreateRandomArray(int size) 
-{
-    int [] array = new int [size];
-    for (int i = 0; i < size; i++)
     {
-          array[i] = new Random().Next(100, 1000); 
+        int [] array = new int [size];
+        for (int i = 0; i < size; i++)
+            {
+                array[i] = new Random().Next(100, 1000); 
+            }
+        return array;
     }
-    return array;
-}
 
 void ShowArr(int[]array)
-{
-    Console.Write("Your array is [ "); 
-    for(int i = 0; i < array.Length; i++) 
     {
-        Console.Write(array[i] + " ");
+        Console.Write("Your array is [ "); 
+        for(int i = 0; i < array.Length; i++) 
+            {
+                Console.Write(array[i] + " ");
+            }
+        Console.Write("]");
     }
-    Console.Write("]");
-}
 
 int EvenCount(int[]array)
-{
+    {
         int count = 0; 
-    for(int i = 0; i < array.Length; i++) 
-        {
-            if (array[i]%2 == 0) count++; 
-        }
+        for(int i = 0; i < array.Length; i++) 
+            {
+                if (array[i]%2 == 0) count++; 
+            }
         return count;
-}
+    }
 
 Console.Write("Input size of array: ");
 int length = Convert.ToInt32(Console.ReadLine());
@@ -51,34 +51,34 @@ Console.WriteLine($"There are {evenCount} even numbers in array");
 
 /*
 int[] CreateRandomArray(int size, int minVal, int maxVal)
-{
-    int[] array = new int[size];
-    for (int i = 0; i < size; i++)
     {
-        array[i] = new Random().Next(minVal, maxVal + 1); 
+        int[] array = new int[size];
+        for (int i = 0; i < size; i++)
+            {
+                array[i] = new Random().Next(minVal, maxVal + 1); 
+            }
+        return array;
     }
-    return array;
-}
 
 void ShowArr(int[] array)
-{
-    Console.Write("Here is your array, mate: [ ");
-    for (int i = 0; i < array.Length; i++)
     {
-        Console.Write(array[i] + " ");
+        Console.Write("Here is your array, mate: [ ");
+        for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write(array[i] + " ");
+            }
+        Console.Write("]"); 
     }
-    Console.Write("]"); 
-}
 
 int OddSum(int[] array)
-{
-    int sum = array[1];
-    for (int i = 3; i < array.Length; i += 2)
     {
-        if (i % 2 != 0) sum += array[i];
+        int sum = array[1];
+        for (int i = 3; i < array.Length; i += 2)
+            {
+                if (i % 2 != 0) sum += array[i];
+            }
+        return sum;
     }
-    return sum;
-}
 
 Console.Write("Input size of array: ");
 int length = Convert.ToInt32(Console.ReadLine());
@@ -88,23 +88,24 @@ Console.Write("Input max of array: ");
 int max = Convert.ToInt32(Console.ReadLine());
 int[] array = CreateRandomArray(length, min, max);
 ShowArr(array);
+
 if (array.Length > 1)  
-{
-    int oddSum = OddSum(array);
-    Console.WriteLine(); 
-    Console.WriteLine($"Sum of odds in array is {oddSum}, my dude");
-}
+    {
+        int oddSum = OddSum(array);
+        Console.WriteLine(); 
+        Console.WriteLine($"Sum of odds in array is {oddSum}, my dude");
+    }
 else
-{
-    Console.WriteLine();
-    Console.WriteLine("We need more numbers, my dude");
-}
+    {
+        Console.WriteLine();
+        Console.WriteLine("We need more numbers, my dude");
+    }
 */
 
 // Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 // [3.22, 4.2, 1.15, 77.15, 65.2] => 77.15 - 1.15 = 76
 
-
+/*
 double[] Array()
     {
         Console.Write("Input length: ");
@@ -149,3 +150,4 @@ ShowArr(array);
 double diffMaxMin = DiffMaxMin(array);
 Console.WriteLine();
 Console.WriteLine($"Difference between maximal and minimal number in your array is {diffMaxMin} my dude");
+*/
