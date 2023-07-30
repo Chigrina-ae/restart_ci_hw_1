@@ -1,24 +1,23 @@
 ﻿// Урок 5. Функции и одномерные массивы
 
-
 // Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. 
 // Напишите программу, которая покажет количество чётных чисел в массиве.
 // [345, 897, 568, 234] -> 2
 
 /*
-int [] CreateRandomArray(int size) // need only size
+int [] CreateRandomArray(int size) 
 {
     int [] array = new int [size];
     for (int i = 0; i < size; i++)
     {
-          array[i] = new Random().Next(100, 1000); //as this won't include last number, making new array consiting only from threre digit numbers
+          array[i] = new Random().Next(100, 1000); 
     }
     return array;
 }
 
 void ShowArr(int[]array)
 {
-    Console.Write("Your array is [ "); // for beauty
+    Console.Write("Your array is [ "); 
     for(int i = 0; i < array.Length; i++) 
     {
         Console.Write(array[i] + " ");
@@ -28,10 +27,10 @@ void ShowArr(int[]array)
 
 int EvenCount(int[]array)
 {
-        int count = 0; // setting count for evens
-    for(int i = 0; i < array.Length; i++) //checking everything
+        int count = 0; 
+    for(int i = 0; i < array.Length; i++) 
         {
-            if (array[i]%2 == 0) count++; //getting our count
+            if (array[i]%2 == 0) count++; 
         }
         return count;
 }
@@ -41,7 +40,7 @@ int length = Convert.ToInt32(Console.ReadLine());
 int [] thrreeDigitArray = CreateRandomArray(length);
 ShowArr(thrreeDigitArray);
 int evenCount = EvenCount(thrreeDigitArray);
-Console.WriteLine(); //for beauty
+Console.WriteLine(); 
 Console.WriteLine($"There are {evenCount} even numbers in array");
 */
 
