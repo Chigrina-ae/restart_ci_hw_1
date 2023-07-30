@@ -1,7 +1,8 @@
 ﻿// Урок 5. Функции и одномерные массивы
 
 
-// Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет количество чётных чисел в массиве.
+// Задача 34: Задайте массив заполненный случайными положительными трёхзначными числами. 
+// Напишите программу, которая покажет количество чётных чисел в массиве.
 // [345, 897, 568, 234] -> 2
 
 /*
@@ -12,13 +13,11 @@ int [] CreateRandomArray(int size) // need only size
     {
           array[i] = new Random().Next(100, 1000); //as this won't include last number, making new array consiting only from threre digit numbers
     }
-
     return array;
 }
 
 void ShowArr(int[]array)
 {
-    
     Console.Write("Your array is [ "); // for beauty
     for(int i = 0; i < array.Length; i++) 
     {
