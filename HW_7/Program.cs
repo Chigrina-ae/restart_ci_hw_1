@@ -69,9 +69,9 @@ void Show2dArray(int[,] array)
 
 void PositionValue(int[,] array) 
     {
-        Console.WriteLine("input row №: ");
+        Console.WriteLine("input row № from 0: ");
         int rowNum = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("input column №: ");
+        Console.WriteLine("input column № from 0: ");
         int columnNum = Convert.ToInt32(Console.ReadLine());
         if (rowNum < array.GetLength(0) && columnNum < array.GetLength(1) && rowNum >= 0 && columnNum >= 0) 
             Console.WriteLine($"The number you seek is {array[rowNum, columnNum]}");
@@ -91,7 +91,7 @@ int[,] myArray = CreateRandom2dArray(rows, columns, min, max);
 Show2dArray(myArray);
 Console.WriteLine();
 PositionValue(myArray);
-/*
+*/
 
 // Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
 
@@ -101,63 +101,48 @@ PositionValue(myArray);
 // 8 4 2 4
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
-
-int[,] CreateRandom2dArray(int rows, int columns, int minValue, int maxValue) // создаем массив
-{
-    int[,] array = new int[rows, columns];
-    for (int i = 0; i < rows; i++)
-        for (int j = 0; j < columns; j++)
-            array[i, j] = new Random().Next(minValue, maxValue + 1);
-    return array;
-}
-
-void Show2dArray(int[,] array) // показываем
-{
-    for (int i = 0; i < array.GetLength(0); i++)
+/*
+int[,] CreateRandom2dArray(int rows, int columns, int minValue, int maxValue) 
     {
-        for (int j = 0; j < array.GetLength(1); j++)
-            Console.Write(array[i, j] + " ");
-        Console.WriteLine();
+        int[,] array = new int[rows, columns];
+        for (int i = 0; i < rows; i++)
+            for (int j = 0; j < columns; j++)
+                array[i, j] = new Random().Next(minValue, maxValue + 1);
+        return array;
     }
-}
 
-void ShowArr(double[] array) // показываем наш новый массив
-{
-    for (int i = 0; i < array.Length; i++)
+void Show2dArray(int[,] array) 
     {
-        Console.Write(array[i] + " ");
-
-    }
-}
-
-double[] Average(int[,] array) // решил пойти через массив здесь
-{
-    double[] result = new double[array.GetLength(1)]; // инициализируем наш результат с размером в количество колонок
-    for (int j = 0; j < array.GetLength(1); j++) // запускаем внешний цикл
-    {
-        int sum = 0;
         for (int i = 0; i < array.GetLength(0); i++)
-            sum += array[i, j];
-        double average = Math.Round((double)sum / array.GetLength(0), 2); // среднеарифметической закладываем во внешний, делим сразу на размер первоначального массива по рядам
-        result[j] = average;
+        {
+            for (int j = 0; j < array.GetLength(1); j++)
+                Console.Write(array[i, j] + " ");
+            Console.WriteLine();
+        }
     }
-    return result;
-}
 
-// попробую void для себя, программу не буду под него переписывать. Тогда не нужны методы под вывод одномерного массива, и строки под вывод
+void ShowArr(double[] array) 
+    {
+        for (int i = 0; i < array.Length; i++)
+        {
+            Console.Write(array[i] + " ");
 
-// void Average(int[,]array)
-// {
-//     Console.WriteLine();
-//  for (int j = 0; j < array.GetLength(1); j++)
-//     {
-//         int sum = 0;
-//         for (int i = 0; i < array.GetLength(0); i++)
-//             sum += array[i, j];
-//         double average = Math.Round((double)sum / array.GetLength(0), 2);
-//         Console.Write($"{average}; ");    
-//     }
-// }
+        }
+    }
+
+double[] Average(int[,] array) 
+    {
+        double[] result = new double[array.GetLength(1)]; 
+        for (int j = 0; j < array.GetLength(1); j++) 
+        {
+            int sum = 0;
+            for (int i = 0; i < array.GetLength(0); i++)
+                sum += array[i, j];
+            double average = Math.Round((double)sum / array.GetLength(0), 2); 
+            result[j] = average;
+        }
+        return result;
+    }
 
 
 Console.WriteLine("input rows: ");
@@ -174,6 +159,6 @@ double[] resultArray = Average(myArray);
 Console.WriteLine();
 Console.WriteLine("That was a trip, but here are your averages for all the culumns in you array: ");
 ShowArr(resultArray);
-
+*/
 
 
