@@ -45,7 +45,7 @@ Console.WriteLine(sum);
 
 // это готовая программа, фактически
 
-
+/*
 int Akkerman(int m, int n)
     {
         if (m == 0) return n + 1;
@@ -58,3 +58,4 @@ int nombreUno = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("input your nombre 2 (number 2): ");
 int nombreDos = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(Akkerman(nombreUno, nombreDos));
+*/
