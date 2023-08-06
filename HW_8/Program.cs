@@ -288,7 +288,7 @@ Show3dArray(myArray);
 // 11 16 15 06
 // 10 09 08 07
 
-
+/*
 int[,] Create2dSpiralArray(int rows, int columns)
 {
     int index = 1;
@@ -351,4 +351,4 @@ int columns = Convert.ToInt32(Console.ReadLine());
 
 int[,] spiral = Create2dSpiralArray(rows, columns);
 Show2dArray(spiral);
-
+*/
