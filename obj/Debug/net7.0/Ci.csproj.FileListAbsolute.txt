@@ -1,0 +1,15 @@
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\obj\Debug\net7.0\Ci.csproj.AssemblyReference.cache
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\obj\Debug\net7.0\Ci.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\obj\Debug\net7.0\Ci.AssemblyInfoInputs.cache
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\obj\Debug\net7.0\Ci.AssemblyInfo.cs
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\obj\Debug\net7.0\Ci.csproj.CoreCompileInputs.cache
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\bin\Debug\net7.0\Ci.exe
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\bin\Debug\net7.0\Ci.deps.json
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\bin\Debug\net7.0\Ci.runtimeconfig.json
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\bin\Debug\net7.0\Ci.dll
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\bin\Debug\net7.0\Ci.pdb
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\obj\Debug\net7.0\Ci.dll
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\obj\Debug\net7.0\refint\Ci.dll
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\obj\Debug\net7.0\Ci.pdb
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\obj\Debug\net7.0\Ci.genruntimeconfig.cache
+C:\Users\jinny\OneDrive\Рабочий стол\Учеба\Ci\obj\Debug\net7.0\ref\Ci.dll
